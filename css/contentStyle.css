@@ -6,7 +6,7 @@
 
 .main ul li a{
 	text-decoration: none;
-	color: black;
+	color: grey;
 }
 
 .main ul li a:hover {
@@ -20,14 +20,14 @@
 .main h3 {
     padding-bottom: 1%;
 	border-bottom: 1px solid black;
-	color: gray;
+	color: grey;
 }
 
 /* readingsPageStyle */
 
 .main p a {
 	text-decoration: none;
-	color: gray;
+	color: grey;
 }
 
 .main p a:hover {
