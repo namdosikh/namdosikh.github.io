@@ -35,3 +35,22 @@
 	color: white;
 	padding: 0.5%;
 }
+
+/* Project Section Styling */
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid grey;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.project h4 {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.project p {
+    margin: 5px 0;
+    color: grey;
+}
