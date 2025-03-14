@@ -38,13 +38,16 @@
 
 /* Project Section Styling */
 .project {
+    width: 100%;  /* Make it take the full width of its container */
+    box-sizing: border-box; /* Ensures padding doesn't exceed width */
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 15px;
     border-left: 4px solid grey;
     background-color: #f9f9f9;
     border-radius: 5px;
 }
 
+/* Ensure the text stays readable and aligned */
 .project h4 {
     margin-bottom: 5px;
     color: black;
@@ -53,4 +56,38 @@
 .project p {
     margin: 5px 0;
     color: grey;
+}
+
+/* File download links container */
+.file-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+}
+
+/* Styling for the file links */
+.file-box {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.file-box:hover {
+    background-color: black;
+}
+
+/* Acknowledgement styling */
+.acknowledgement {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid grey;
+    font-style: italic;
+    border-radius: 5px;
 }
