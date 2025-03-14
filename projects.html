@@ -8,31 +8,134 @@
     <link rel="icon" href="img/r.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contentStyle.css">
+    <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <div class="main">
         <h3>My Projects</h3>
+
         <div class="project">
-            <h4>Secret Sharing Scheme via Skew Polynomial</h4>
-            <p><strong>MA4094 Final Project</strong> (August 2023 - July 2024)</p>
-            <p>Explored the application of a specific non-commutative ring, known as the Skew Polynomial Ring, in a public key cryptography scheme called the Shamir Secret Sharing Scheme. The focus is on the complexity of Skew Polynomials Interpolation, which can enhance the security of the scheme.</p>
+            <h4>Skema Pembagian Informasi Rahasia melalui Polinomial Miring</h4>
+            <p><strong>Field:</strong> Algebra, Cryptography</p>
+            <p>
+                Abstract: This research explores advanced techniques in cryptographic security, focusing on secret sharing schemes based on non-commutative algebraic structures. 
+                A secret sharing scheme divides a secret into multiple parts, reconstructable from a sufficient number of pieces, exemplified by Shamir’s secret sharing scheme. 
+                The method described divides data \(S\) into \(r\) pieces, reconstructable from any \(ρ\) pieces, while \(ρ − 1\) pieces reveal no information, enhancing key management security even under severe breaches.
+            </p>
+            <p>
+                Additionally, cryptosystems utilizing skew polynomials over finite fields have gained attention for their complexity and potential security benefits. 
+                Skew polynomials generalize polynomials over commutative rings, promising a more secure platform. 
+                Introduced by Ore in 1933 and further studied by Lam and Leroy, skew polynomial rings leverage complex evaluation and interpolation processes to enhance security. 
+                This approach can be viewed as a generalization of Shamir’s secret sharing scheme, offering a robust and secure cryptographic framework.
+            </p>
+            <p><strong>Key Words:</strong> Secret Sharing Scheme, Skew Polynomials, Cryptography, Non-commutative Algebraic Structures.</p>
+            <!-- Download links -->
+            <div class="file-links">
+                <a href="https://drive.google.com/file/d/1Gx905rPc0enxS97N-1CjoZVVv0mrXg81/view?usp=sharing" 
+                   target="_blank" class="file-box">📄 Report</a>
+                <a href="https://drive.google.com/file/d/1rIyasJXfD-Su_735FZPHYF3zxXmC-s1k/view?usp=sharing" 
+                   target="_blank" class="file-box">📂 Presentation</a>
+            </div>
+            <!-- Acknowledgement -->
+            <p class="acknowledgement">
+                <strong>Acknowledgement:</strong> This research project is done as my Undergraduate Final Project at Mathematics, Institut Teknologi Bandung 
+                under the guidance of Prof. Intan Detiena.
+            </p>
         </div>
 
         <div class="project">
             <h4>Perancangan Rute Terpendek Pengantaran Paket di Kampus ITB Ganesha</h4>
-            <p><strong>MA3051 Elementary Graph Theory</strong> (November 2023 - December 2023)</p>
-            <p>Optimized package delivery routes at ITB Ganesha campus using Dijkstra's algorithm with a team, modeling the campus as a weighted graph, considering one-way traffic rules and building access to minimize travel distance and improve logistics efficiency.</p>
+            <p><strong>Field:</strong> Graph Theory</p>
+            <p>
+                Abstrak: Perkembangan teknologi informasi dan komunikasi telah mendorong optimalisasi sistem logistik, termasuk dalam distribusi barang di lingkungan kampus. 
+                Kampus ITB Ganesha memiliki kompleksitas infrastruktur dengan aturan lalu lintas internal yang harus diperhatikan dalam pengantaran paket. 
+                Penelitian ini bertujuan untuk merancang rute terpendek pengantaran paket menggunakan teori graf dan algoritma Dijkstra. 
+                Kampus ITB Ganesha dimodelkan sebagai graf berbobot dan berarah, di mana titik graf merepresentasikan lokasi pemberhentian kurir, 
+                sementara sisi graf menunjukkan koneksi antar gedung dengan bobot berupa jarak sebenarnya dalam satuan meter.
+            </p>
+            <p>
+                Algoritma Dijkstra diterapkan untuk menentukan jalur optimal dari gerbang utama menuju setiap gedung dengan mempertimbangkan aturan jalan satu arah. 
+                Hasil penelitian menunjukkan bahwa rute optimal yang diperoleh mampu mengurangi total jarak tempuh pengantaran hingga 3.636 meter, 
+                meningkatkan efisiensi distribusi. Temuan ini dapat berkontribusi dalam pengembangan sistem logistik kampus yang lebih efektif. 
+                Rekomendasi untuk penelitian selanjutnya mencakup pertimbangan aksesibilitas gedung tanpa akses langsung ke jalan dan gedung dengan pintu masuk terbatas.
+            </p>
+            <p><strong>Kata Kunci:</strong> Rute Terpendek, Teori Graf, Algoritma Dijkstra, Distribusi Paket, Kampus ITB Ganesha.</p>
+
+            <!-- Download links -->
+            <div class="file-links">
+                <a href="https://drive.google.com/file/d/1difpvlLs4VG2GBws7n9t6UDtlasg8SUi/view?usp=sharing" 
+                   target="_blank" class="file-box">📄 Report</a>
+                <a href="https://www.canva.com/design/DAGhmAd_enw/nHo5wTaaem1JntMwAwPw9g/view?utm_content=DAGhmAd_enw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb764fc8ff5" 
+                   target="_blank" class="file-box">📂 Presentation</a>
+            </div>
+            <!-- Acknowledgement -->
+            <p class="acknowledgement">
+                <strong>Acknowledgement:</strong> This joint project is done with many help of Medina, Zaki, Annida, Aya, and Azka 
+                as our final project for MA3051 Elementary Graph Theory course taught by Dr. Suhadi Wido Saputro (and Prof. Hilda Assiyatun).
+            </p>
         </div>
 
         <div class="project">
-            <h4>Sistem Deteksi Dini Demam Berdarah Dengue Kota Bandung</h4>
-            <p><strong>MA3271 Mathematical Modelling</strong> (March 2023 - May 2023)</p>
-            <p>Developed an early warning system for Demam Berdarah Dengue (DBD) outbreaks in Bandung, modeling climate-related factors with a team using Vector Autoregressive and Binomial Negative models with R for analysis and Python for visualization, to analyze the relationship between climate and DBD cases.</p>
+            <h4>Sistem Deteksi Dini (<i>Early Warning System</i>) Demam Berdarah Dengue Kota Bandung</h4>
+            <p><strong>Field:</strong> Applied Mathematics, Statistics Models</p>
+            <p>
+                Abstrak: Demam Berdarah Dengue (DBD) adalah penyakit menular yang sangat berbahaya, disebabkan oleh virus dengue yang ditularkan oleh nyamuk 
+                <i>Aedes aegypti</i> dan <i>Aedes albopictus</i>. Faktor-faktor iklim, seperti suhu, kelembapan, dan curah hujan, mempengaruhi penularan penyakit ini melalui vektor tersebut. 
+                Kota Bandung adalah salah satu kota di mana kasus DBD cukup tinggi, tetapi upaya pencegahannya belum optimal. 
+                Untuk mengurangi angka kasus DBD dengan pendekatan matematis, dirancang sebuah Sistem Deteksi Dini (<i>Early Warning System</i>) 
+                menggunakan model <i>Vector Autoregressive</i> (VAR).
+            </p>
+            <p>
+                Tujuan dari pemodelan ini adalah untuk mengembangkan sistem deteksi dini guna menekan angka kasus DBD, serta menganalisis korelasi 
+                antara faktor iklim dan kasus DBD itu sendiri. Dengan demikian, diharapkan upaya pencegahan dan pengendalian DBD di Kota Bandung 
+                dapat ditingkatkan secara efektif.
+            </p>
+            <p><strong>Kata Kunci:</strong> Demam Berdarah, Iklim, Pencegahan, Sistem Deteksi Dini.</p>
+            <!-- Download links -->
+            <div class="file-links">
+                <a href="https://drive.google.com/file/d/1m57Sw5fgdHNOBXyI4BNsLYdraxZ-DyZv/view?usp=sharing" 
+                   target="_blank" class="file-box">📄 Report</a>
+                
+                <a href="https://www.canva.com/design/DAGhmJJ9zcs/WqjSrnutkHCv0quU3o-TQA/view?utm_content=DAGhmJJ9zcs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbbd38fabca" 
+                   target="_blank" class="file-box">📂 Presentation 1</a>
+                
+                <a href="https://www.canva.com/design/DAGhmElcCiY/-gDjeVYY71Fvod2K4lMhgQ/view?utm_content=DAGhmElcCiY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3b2ce8e4d8" 
+                   target="_blank" class="file-box">📂 Presentation 2</a>
+                
+                <a href="https://www.canva.com/design/DAGhmMFfFTw/nejGLAcMpTAt_4ymnlN8uA/view?utm_content=DAGhmMFfFTw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcf02e8eede" 
+                   target="_blank" class="file-box">📂 Presentation 3</a>
+            </div>
+            <!-- Acknowledgement -->
+            <p class="acknowledgement">
+                <strong>Acknowledgement:</strong> This joint project is done with many help of Aqna, Ang, Setyo, and Azka as our main project 
+                for MA3271 Mathematical Modelling under the guidance of Prof. Nuning Nuraini.
+            </p>
         </div>
+        
+        <div class="project">
+            <h4>Cacatnya Matematika menurut Gödel: Teorema Ketidaklengkapan Gödel</h4>
+            <p><strong>Field:</strong> Philosophy, Mathematical Logic</p>
+            <p>
+                Simple essay about Gödel Incompleteness Theorem.
+            </p>
+            
+            <!-- Download link -->
+            <div class="file-links">
+                <a href="https://drive.google.com/file/d/1R9ONxwnQ_22RoHHxl_2ot0WXn1Vs0N4P/view?usp=sharing" 
+                   target="_blank" class="file-box">📜 View Paper</a>
+            </div>
+        
+            <!-- Acknowledgement -->
+            <p class="acknowledgement">
+                <strong>Acknowledgement:</strong> This essay is written as my final task for KU4225 Philosophy of Science course taught by Dr. Asep Zaenal Ausop.
+            </p>
+        </div>
+
     </div>
 
     <div class="bawah">
-        <p>Sorry for the basic and boring design. I will try to redesign it later</p>
+        <p>Sorry for the basic and boring design. I will try to redesign it later.</p>
     </div>
     <div class="balik"><a href="index.html">Home</a></div>
 </body>
